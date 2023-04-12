@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+$gray: #E5E5E5;
+$white:#ffff;
+$red:#EB5757;
+$alise-blue:#ECEFF1;
+$blue-gray: #90A4AE;
+$card-padding:32px 40px;
+$border-radius:16px;
+
+body{
+    background-color: $gray;
+    font-family: 'Inter', sans-serif;
+}
+.card{
+    border-radius: $border-radius;
+    border: 0;
+}
+.course-info{
+background-color: $red;
+padding: $card-padding;
+color: $alise-blue;
+border-top-left-radius: $border-radius;
+border-bottom-left-radius: $border-radius;
+}
+
+.chapter-info{
+    padding: $card-padding;
+}
+
+.chapter-number{
+    color: $blue-gray;
+}
+.chapter-title{
+    font-size: 32px;
+    font-weight: 600;
+}
+.progress-bar{
+    p{
+        font-size: 10px;
+        color: $blue-gray;
+    }
+}
+.nextBtn-container{
+    .btn-primary{
+        font-size: 13px;
+        --bs-btn-color: #fff;
+        --bs-btn-bg: #EB5757;
+        --bs-btn-border-color: #EB5757;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #bb3737;
+        --bs-btn-hover-border-color: #bb3737;
+    }
+}
+
+.location-image{
+    width: 490px;
+}
